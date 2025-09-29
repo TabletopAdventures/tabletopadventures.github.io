@@ -8,6 +8,10 @@ title: Tabletop Adventures
 description: "A timeline of our TTRPG campaigns."
 theme: jekyll-theme-minimal # You can change this later
 
+# Tell Jekyll to process these folders
+include:
+  - "_pages"
+
 # Collections: Define each campaign here
 collections:
   shadowrun_zero:
