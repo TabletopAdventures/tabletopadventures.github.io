@@ -27,7 +27,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version-file: .ruby-version # Reads the version from the file
           bundler-cache: true # Installs gems from your Gemfile.lock
       - name: Build with Jekyll
         run: bundle exec jekyll build
