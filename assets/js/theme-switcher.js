@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // On page load, get the saved theme from localStorage
-    let currentThemeName = localStorage.getItem('theme') || 'system';
+    let currentThemeName = localStorage.getItem('theme') || 'dark';
 
     // Apply the theme and update the button
     applyTheme(currentThemeName);
