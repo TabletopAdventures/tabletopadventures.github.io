@@ -1,5 +1,9 @@
 # _config.yml
 
+url: "https://tabletopadventures.github.io"
+baseurl: ""
+repository: "TabletopAdventures/tabletopadventures.github.io"
+
 title: Tabletop Adventures
 description: "A timeline of our TTRPG campaigns."
 theme: jekyll-theme-minimal # You can change this later
