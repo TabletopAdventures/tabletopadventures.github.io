@@ -8,6 +8,7 @@
   --link-color: #007bff;
   --text-color-muted: #6c757d;
   --header-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --content-overlay-bg: rgba(255, 255, 255, 0.85);
 }
 
 [data-theme="dark"] {
@@ -19,6 +20,7 @@
   --link-color: #61dafb;
   --text-color-muted: #adb5bd;
   --header-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  --content-overlay-bg: rgba(26, 26, 26, 0.85);
 }
 
 /* Theme Switcher Button */
@@ -51,21 +53,46 @@ body {
   transition: background-color 0.3s, color 0.3s;
   line-height: 1.6;
   margin: 0;
+  padding: 0;
+}
+
+main {
   padding: 2em;
 }
 
 
 /* Campaign List on Homepage */
+/* Update campaign card to use Flexbox */
 .campaign-card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--timeline-line-color);
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 8px;
+  display: flex;
+  align-items: center; /* Vertically centers the icon and text */
+  gap: 1.5em; /* Creates space between the icon and text */
+  background-color: var(--card-bg);
+  border: 1px solid var(--timeline-line-color);
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+/* Style for the campaign icon */
+.campaign-icon {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0; /* Prevents the icon from shrinking if text is long */
+  border-radius: 5px; /* Optional: rounds the corners of the icon */
 }
 .campaign-card h2 a {
     color: var(--link-color);
     text-decoration: none;
+}
+
+/* Add a subtle grow effect when hovering over the linked icon */
+.campaign-card a .campaign-icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+.campaign-card a:hover .campaign-icon {
+  transform: scale(1.05); /* Makes the icon slightly larger on hover */
 }
 
 /* -- New, Simplified Vertical Timeline Style -- */
@@ -113,20 +140,20 @@ body {
 /* Adjust the timeline header to make space for the button and be sticky */
 .timeline-header {
   /* Sticky Positioning */
-  position: -webkit-sticky; /* For Safari compatibility */
+  position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
-  z-index: 50; /* Sits below the theme button (z-index: 100) */
-  
-  /* Appearance */
-  background-color: var(--bg-color); /* Hides content scrolling underneath */
-  box-shadow: var(--header-shadow);
-  padding: 1em 50px; /* Vertical padding for when it's sticky */
+  z-index: 50;
 
-  /* Existing Styles */
+  /* Appearance */
+  background-color: var(--bg-color);
+  box-shadow: var(--header-shadow);
+
+  /* Layout & Spacing (Updated) */
+  padding: 20px 50px; /* Vertical padding to clear theme button */
   text-align: center;
-  margin-bottom: 2em;
-  margin-top: 50px;
+  margin-bottom: 2em; 
+  /* margin-top has been removed */
 }
 
 /* The content card */
@@ -181,4 +208,20 @@ body {
 
 .back-button:hover {
   background-color: var(--timeline-item-bg);
+}
+
+/* Styling for pages with a background image */
+body.page-with-background {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* Creates a semi-transparent overlay for the main content */
+.page-with-background main {
+  background-color: var(--content-overlay-bg);
+  border-radius: 8px;
+  padding: 1em 2em;
+  margin: 0 auto;
+  max-width: 900px; /* Or another width you prefer */
 }

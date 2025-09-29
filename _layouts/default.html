@@ -23,13 +23,11 @@
 
   <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}" defer></script>
 </head>
-<body>
+<body {% if page.background_image %}class="page-with-background" style="background-image: url('{{ page.background_image | relative_url }}');"{% endif %}>
 
   <button id="theme-switcher" class="theme-switcher"></button>
 
-  <main>
-    {{ content }}
-  </main>
+  {{ content }}
 
 </body>
 </html>

@@ -18,6 +18,7 @@ collections:
     output: true # Creates a page at /shadowrun_zero/
     title: "Shadowrun Zero"
     permalink: /:collection/:name/
+    icon: "/assets/images/shadowrun_zero/campaign_icon.png"
 
 # Defaults for all pages and collections
 defaults:
