@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="timeline-header">
+  <a href="{{ site.baseurl }}/" class="back-button">← Back</a>
+  <h1>{{ page.title }}</h1>
+</div>
+
+<div class="timeline">
+  {% assign sorted_docs = site[page.collection] | sort: 'date' | reverse %}
+  {% for doc in sorted_docs %}
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-entry-header">
+          <h2>{{ doc.title }}</h2>
+          <span class="timeline-date">{{ doc.date | date: "%b %d, %Y" }}</span>
+      </div>
+      {{ doc.content }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

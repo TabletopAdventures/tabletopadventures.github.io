@@ -1,0 +1,184 @@
+/* Light & Dark Mode Variables */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --timeline-line-color: #e0e0e0;
+  --timeline-item-bg: #f9f9f9;
+  --card-bg: #f1f1f1;
+  --link-color: #007bff;
+  --text-color-muted: #6c757d;
+  --header-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --timeline-line-color: #444444;
+  --timeline-item-bg: #2a2a2a;
+  --card-bg: #333;
+  --link-color: #61dafb;
+  --text-color-muted: #adb5bd;
+  --header-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Theme Switcher Button */
+.theme-switcher {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  
+  /* Makes it look nice for a single icon/emoji */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--timeline-line-color);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* General Body Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2em;
+}
+
+
+/* Campaign List on Homepage */
+.campaign-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--timeline-line-color);
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+.campaign-card h2 a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+/* -- New, Simplified Vertical Timeline Style -- */
+.timeline {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/* The central line on the left side */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: var(--timeline-line-color);
+  top: 0;
+  bottom: 0;
+  left: 30px;
+  margin-left: -2px;
+}
+
+/* Each timeline item container */
+.timeline-item {
+  padding: 10px 0 20px 70px; /* Creates space to the left of the line */
+  position: relative;
+}
+
+/* The circle on the timeline */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 30px; /* Aligns the circle with the line */
+  background-color: var(--bg-color);
+  border: 4px solid var(--timeline-line-color);
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-left: -10px; /* Centers the circle on the line */
+}
+
+
+/* Adjust the timeline header to make space for the button and be sticky */
+.timeline-header {
+  /* Sticky Positioning */
+  position: -webkit-sticky; /* For Safari compatibility */
+  position: sticky;
+  top: 0;
+  z-index: 50; /* Sits below the theme button (z-index: 100) */
+  
+  /* Appearance */
+  background-color: var(--bg-color); /* Hides content scrolling underneath */
+  box-shadow: var(--header-shadow);
+  padding: 1em 50px; /* Vertical padding for when it's sticky */
+
+  /* Existing Styles */
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 50px;
+}
+
+/* The content card */
+.timeline-content {
+  padding: 20px 30px;
+  background-color: var(--timeline-item-bg);
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid var(--timeline-line-color);
+}
+
+.timeline-header h1 {
+  margin: 0;
+  font-size: 2.5em; /* Make the font larger */
+}
+
+/* Header for each entry in the timeline */
+.timeline-entry-header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.timeline-entry-header h2 {
+  margin: 0;
+  font-size: 1.5em; /* A nice size for the entry title */
+  line-height: 1.2;
+}
+
+.timeline-entry-header .timeline-date {
+  display: block; /* Puts the date on its own line below the title */
+  margin-left: 0; /* Removes the old spacing that broke centering */
+  font-size: 0.9em;
+  color: var(--text-color-muted);
+  font-style: italic;
+}
+
+/* Reposition the back button to the left */
+.back-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the button */
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--timeline-line-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: var(--timeline-item-bg);
+}

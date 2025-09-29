@@ -1,0 +1,19 @@
+# _config.yml
+
+title: Tabletop Adventures
+description: "A timeline of our TTRPG campaigns."
+theme: jekyll-theme-minimal # You can change this later
+
+# Collections: Define each campaign here
+collections:
+  shadowrun_zero:
+    output: true # Creates a page at /shadowrun_zero/
+    title: "Shadowrun Zero"
+    permalink: /:collection/:name/
+
+# Defaults for all pages and collections
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
