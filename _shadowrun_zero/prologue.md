@@ -3,6 +3,7 @@ title: "Prologue: The Crew in DFW"
 date: 2026-02-21
 ---
 
+---
 # Welcome to the Sixth World, Chummer
 
 It's 2086. Take a deep breath of that smoggy, neon-tinged air, because you're living on borrowed time in a world that's been running on a double-espresso of chaos and magic for over seventy-five years. Since the Awakening slammed into reality in 2011, the rules of physics, politics, and rights have been rewritten. Maybe you've got old family credsticks with vids of a world without elves and trolls, without corporate-owned police forces, and without the constant, buzzing threat of a dragon holding a controlling interest in your life. That world is gone, and the one we're in now is hungry.
