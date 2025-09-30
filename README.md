@@ -35,7 +35,7 @@ Adding a new campaign is a three-step process. For this example, let's add a "Di
 First, you need to tell Jekyll about the new campaign.
 * Open the **`_config.yml`** file.
 * Under the `collections:` section, add a new entry for your campaign. The key (`discworld_scp`) will be used for the folder name.
-    ```yaml
+    ```yml
     collections:
       shadowrun_zero:
         # ...
@@ -50,7 +50,7 @@ This file creates the main page for the campaign's timeline.
 * Go to the **`_pages/`** folder.
 * Create a new file named `campaign_discworld_scp.md`.
 * Add the following front matter, making sure the `collection` matches the key from `_config.yml` and the `permalink` defines its URL.
-    ```yaml
+    ```yml
     ---
     layout: timeline
     title: "Discworld SCP Timeline"
@@ -86,16 +86,15 @@ Each "session" is just a simple Markdown file that represents a single event in 
 
 2.  **Add the Front Matter**: At the very top of the new file, add the required front matter. The `date` is crucial, as it determines the order of events in the timeline (most recent appears at the top). 
 
-> [!WARNING]
-> Date must be in the form `YYYY-MM-DD`.
-
-
-    ```yaml
+    ```yml
     ---
     title: "The Explosion"
     date: 2025-10-12
     ---
     ```
+    
+> [!WARNING]
+> Date must be in the form `YYYY-MM-DD`.
 
 3.  **Write Your Content**: Below the `---`, write your session notes using standard Markdown.
     ```markdown
