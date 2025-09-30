@@ -73,7 +73,8 @@ Each campaign should store all their images for that campaign in the specific fo
 
 So for our example of a "Discworld SCP" campaign it would be `/assets/images/discworld_scp/`.
 
-Missing images do not break the site, so put them in as able!
+> [!NOTE]
+> Missing images do not break the site, so put them in as able!
 
 ---
 
@@ -98,7 +99,12 @@ Each "session" is just a simple Markdown file that represents a single event in 
 
 3.  **Write Your Content**: Below the `---`, write your session notes using standard Markdown.
     ```markdown
-    The team geared up in the neon-drenched back alleys of Night City. Their fixer had given them a simple objective: get in, grab the prototype data shard, and get out.
+    The Alchemists' Guild celebrated another successful "unscheduled atmospheric restructuring," which left a 
+    surprisingly neat crater where their building used to be. Commander Vimes of the City Watch surveyed the 
+    scene, noting that the only thing spreading faster than the soot was the paperwork required to investigate it. 
+    
+    Ultimately, the Guild's only real crime was managing to vaporize three street food vendors, tragically leaving 
+    no one to sell a sausage-in-a-bun to the onlookers.
     ```
 
 Save the file, and it will automatically appear in the correct order on your campaign's timeline page.
