@@ -9,6 +9,7 @@
   --text-color-muted: #6c757d;
   --header-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   --content-overlay-bg: rgba(255, 255, 255, 0.85);
+  --theme-gh-size: 40px
 }
 
 [data-theme="dark"] {
@@ -26,12 +27,12 @@
 /* Theme Switcher Button */
 .theme-switcher {
   /* Position, top, right, and z-index are GONE */
-  width: 40px;
-  height: 40px;
+  width: var(--theme-gh-size);
+  height: var(--theme-gh-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   background-color: var(--card-bg);
   color: var(--text-color);
   border: 1px solid var(--timeline-line-color);
@@ -241,8 +242,8 @@ body.page-with-background {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: var(--theme-gh-size);
+  height: var(--theme-gh-size);
 
   background-color: var(--card-bg);
   border: 1px solid var(--timeline-line-color);
@@ -256,7 +257,7 @@ body.page-with-background {
 
 /* Set the icon size directly */
 .github-link svg {
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   fill: currentColor;
 }
