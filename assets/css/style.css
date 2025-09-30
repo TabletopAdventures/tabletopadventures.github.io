@@ -51,6 +51,11 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 120px; /* Adjust this value to match your header's height */
+  scroll-behavior: smooth; /* Optional: Adds a nice smooth scroll effect */
+}
+
 main {
   padding: 2em;
 }
@@ -188,9 +193,9 @@ main {
 /* Reposition the back button to the left */
 .back-button {
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%); /* Vertically center the button */
+  left: 15px;    /* Give it some space from the edge */
+  top: 15px;     /* Align it with the other top buttons */
+  
   display: inline-block;
   padding: 8px 12px;
   background-color: var(--card-bg);
@@ -200,6 +205,7 @@ main {
   text-decoration: none;
   transition: background-color 0.2s;
 }
+
 
 .back-button:hover {
   background-color: var(--timeline-item-bg);
@@ -260,4 +266,45 @@ body.page-with-background {
   width: 30px;
   height: 30px;
   fill: currentColor;
+}
+
+/* -- Table of Contents -- */
+.toc {
+  position: fixed;
+  left: 20px;
+  top: 150px;
+  width: 220px;
+  font-size: 0.9em;
+
+  /* New styles for the background */
+  background-color: var(--content-overlay-bg);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 10px;
+  border-left: 2px solid var(--timeline-line-color);
+}
+
+.toc li {
+  margin-bottom: 0.5em;
+}
+
+.toc a {
+  color: var(--text-color-muted);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.toc a:hover {
+  color: var(--text-color);
+}
+
+/* Style for the currently active link */
+.toc a.active {
+  color: var(--link-color);
+  font-weight: bold;
+  transform: translateX(5px);
 }
