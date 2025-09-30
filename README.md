@@ -99,12 +99,14 @@ Each "session" is just a simple Markdown file that represents a single event in 
 
 3.  **Write Your Content**: Below the `---`, write your session notes using standard Markdown.
     ```markdown
-    The Alchemists' Guild celebrated another successful "unscheduled atmospheric restructuring," which left a 
-    surprisingly neat crater where their building used to be. Commander Vimes of the City Watch surveyed the 
-    scene, noting that the only thing spreading faster than the soot was the paperwork required to investigate it. 
+    # Boom!
+    The Alchemists' Guild celebrated another successful "unscheduled atmospheric 
+    restructuring," which left a surprisingly neat crater where their building used to be. 
+    Commander Vimes of the City Watch surveyed the scene, noting that the only thing 
+    spreading faster than the soot was the paperwork required to investigate it. 
     
-    Ultimately, the Guild's only real crime was managing to vaporize three street food vendors, tragically leaving 
-    no one to sell a sausage-in-a-bun to the onlookers.
+    Ultimately, the Guild's only real crime was managing to vaporize three street food 
+    vendors, tragically leaving no one to sell a sausage-in-a-bun to the onlookers.
     ```
 
 Save the file, and it will automatically appear in the correct order on your campaign's timeline page.
