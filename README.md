@@ -23,7 +23,7 @@ To run this website on your local machine, you'll need a Ruby development enviro
     bundle exec jekyll serve
     ```
 
-4.  **View Your Site**: Open your web browser and navigate to the server address shown in your terminal, which is usually **`http://1227.0.0.1:4000/`**. The site will automatically refresh whenever you save a file.
+4.  **View Your Site**: Open your web browser and navigate to the server address shown in your terminal, which is usually **`http://127.0.0.1:4000`**. The site will automatically refresh whenever you save a file.
 
 ---
 
@@ -98,6 +98,7 @@ Each "session" is just a simple Markdown file that represents a single event in 
 > Date must be in the form `YYYY-MM-DD`.
 
 3.  **Write Your Content**: Below the `---`, write your session notes using standard Markdown.
+
     ```markdown
     # Boom!
     The Alchemists' Guild celebrated another successful "unscheduled atmospheric 
