@@ -81,13 +81,14 @@ Missing images do not break the site, so put them in as able!
 
 Each "session" is just a simple Markdown file that represents a single event in your timeline.
 
-1.  **Create a New File**: Go into the collection folder for your campaign (e.g., **`_discworld_scp/`**). Create a new Markdown file (`.md`) for your session. It's good practice to number them for organization, but it's not required.
+1.  **Create a New File**: Go into the collection folder for your campaign (e.g., **`_discworld_scp/`**). Create a new Markdown file (`.md`) for your session.
     * Example: `the-explosion.md`
 
 2.  **Add the Front Matter**: At the very top of the new file, add the required front matter. The `date` is crucial, as it determines the order of events in the timeline (most recent appears at the top). 
 
 > [!WARNING]
 > Date must be in the form `YYYY-MM-DD`.
+
 
     ```yaml
     ---
