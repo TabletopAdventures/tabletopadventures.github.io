@@ -92,7 +92,7 @@ main {
 }
 
 .campaign-card a:hover .campaign-icon {
-  transform: scale(1.05); /* Makes the icon slightly larger on hover */
+  transform: scale(1.15); /* Makes the icon slightly larger on hover */
 }
 
 /* -- New, Simplified Vertical Timeline Style -- */
