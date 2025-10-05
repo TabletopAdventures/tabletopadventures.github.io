@@ -23,6 +23,7 @@ collections:
   horror_on_the_orient_express:
     output: true 
     title: "Horror on the Orient Express"
+    permalink: /:collection/:name/
     icon: "/assets/images/shadowrun_zero/campaign_icon.png"
 
 # Defaults for all pages and collections
