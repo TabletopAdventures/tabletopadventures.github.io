@@ -25,6 +25,12 @@ collections:
     permalink: /:collection/:name/
     icon: "/assets/images/m_and_m_foundation/campaign_icon.png"
 
+  horror_on_the_orient_express:
+    output: true 
+    title: "Horror on the Orient Express"
+    permalink: /:collection/:name/
+    icon: "/assets/images/horror_on_the_orient_express/HotOE-Icon.webp"
+
 # Defaults for all pages and collections
 defaults:
   - scope:
