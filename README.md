@@ -11,7 +11,9 @@ This is a Jekyll-powered site for creating and displaying timelines for tabletop
 To run this website on your local machine, you'll need a Ruby development environment. This allows you to see your changes instantly without having to push them to GitHub every time.
 
 1.  **Prerequisites**: Make sure you have **Ruby** and **Bundler** installed. It's highly recommended to use a version manager like `rbenv` to avoid system permission issues.
-    * Your project is configured to use **Ruby 3.3.0**. Make sure this version is active.
+
+> [!Note]
+> Your project is configured to use the ruby version specified in `.ruby-version`. Make sure this version is active.
 
 2.  **Install Dependencies**: Navigate to the project's root folder in your terminal and run this command. It will download and install all the gems (plugins) listed in your `Gemfile.lock`.
     ```bash
