@@ -35,6 +35,7 @@ collections:
     title: "Horror on the Orient Express"
     permalink: /:collection/:name/
     icon: "/assets/images/horror_on_the_orient_express/HotOE-Icon.webp"
+    description: "In 1923, an heiress to a criminal empire and her entourage collect the pieces of a dark artifact from all across Europe to finally destroy it, battling the cultists to a flayed god, evading \"Sloppy Joe,\" and ignoring the ominous appearances of a woman who is definitely not a vampire."
 
 # Defaults for all pages and collections
 defaults:
