@@ -22,6 +22,8 @@ collections:
     title: "Shadowrun Zero"
     permalink: /:collection/:name/
     icon: "/assets/images/shadowrun_zero/campaign_icon.png"
+    description: "In the sprawling, sun-scorched metroplex of Dallas-Fort Worth, shadowrunners are puppeted by their corporate overlords, serving as deniable assets and expendable pawns in the silent wars fought in the city's shimmering data-havens and chrome-lined boardrooms."
+
   m_and_m_foundation:
     output: true # Creates a page at /m_and_m_foundation/
     title: "M&M Foundation"
