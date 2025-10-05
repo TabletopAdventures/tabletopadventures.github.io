@@ -2,8 +2,6 @@
 
 This is a Jekyll-powered site for creating and displaying timelines for tabletop roleplaying game campaigns. It's designed to be simple to update and is hosted on GitHub Pages.
 
-
-
 ---
 
 ## Local Setup 💻
@@ -66,7 +64,7 @@ This file creates the main page for the campaign's timeline.
 This is where all of your session notes will live.
 
 > [!WARNING]
-> In the **root** of the project, create a new folder named **`_discworld_scp/`**. **The underscore is required.**
+> Go into the **[`campaigns/`](campaigns)** folder and create a new folder named **`_discworld_scp/`**. **The underscore is required.**
 
 Your new campaign is now set up! The site will automatically add a card for it on the homepage.
 
@@ -84,7 +82,7 @@ So for our example of a "Discworld SCP" campaign it would be `/assets/images/dis
 
 Each "session" is just a simple Markdown file that represents a single event in your timeline.
 
-1.  **Create a New File**: Go into the collection folder for your campaign (e.g., **`_discworld_scp/`**). Create a new Markdown file (`.md`) for your session.
+1.  **Create a New File**: Go into the **[`campaigns/`](campaigns)** folder, then into the collection folder for your campaign (e.g., **`_discworld_scp/`**). Create a new Markdown file (`.md`) for your session.
     * Example: `the-explosion.md`
 
 2.  **Add the Front Matter**: At the very top of the new file, add the required front matter. The `date` is crucial, as it determines the order of events in the timeline (most recent appears at the top). 

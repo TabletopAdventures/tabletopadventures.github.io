@@ -12,6 +12,9 @@ theme: jekyll-theme-minimal # You can change this later
 include:
   - "_pages"
 
+# Set the folder where all campaigns live so they're not top-level
+collections_dir: campaigns
+
 # Collections: Define each campaign here
 collections:
   shadowrun_zero:
