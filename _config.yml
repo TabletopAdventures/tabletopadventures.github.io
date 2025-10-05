@@ -19,6 +19,11 @@ collections:
     title: "Shadowrun Zero"
     permalink: /:collection/:name/
     icon: "/assets/images/shadowrun_zero/campaign_icon.png"
+  m_and_m_foundation:
+    output: true # Creates a page at /m_and_m_foundation/
+    title: "M&M Foundation"
+    permalink: /:collection/:name/
+    icon: "/assets/images/m_and_m_foundation/campaign_icon.png"
 
   horror_on_the_orient_express:
     output: true 
