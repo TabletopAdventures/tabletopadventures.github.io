@@ -1,43 +1,41 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const tocLinks = document.querySelectorAll('.toc a');
-    const sections = [];
-
-    // Don't run the script if there's no TOC on the page
-    if (tocLinks.length === 0) {
-        return;
+  const tocLinks = document.querySelectorAll('.toc a');
+  const sections = Array.from(tocLinks).map(link => {
+    if (link) {
+      return document.querySelector(link.getAttribute('href'));
     }
+    return null;
+  }).filter(Boolean); // Filter out any null/broken links
 
-    tocLinks.forEach(link => {
-        const section = document.querySelector(link.getAttribute('href'));
-        if (section) {
-            sections.push(section);
+  if (sections.length === 0) {
+    return;
+  }
+
+  const observerOptions = {
+    root: null, // Use the viewport as the container
+    rootMargin: '-120px 0px -50% 0px', // Defines the "active" zone at the top of the screen
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      // If a section is intersecting the active zone...
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+
+        // ...remove the active class from all links...
+        tocLinks.forEach(link => link.classList.remove('active'));
+
+        // ...and add it only to the link that corresponds to the intersecting section.
+        const activeLink = document.querySelector(`.toc a[href="#${id}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active');
         }
+      }
     });
+  }, observerOptions);
 
-    const highlightTocLink = () => {
-        let currentSection = null;
-        const scrollPosition = window.scrollY;
-
-        // Find the section that is currently in view
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - 120; // Adjust for sticky header
-            if (scrollPosition >= sectionTop) {
-                currentSection = section;
-            }
-        });
-
-        // Highlight the corresponding link
-        tocLinks.forEach(link => {
-            link.classList.remove('active');
-            if (currentSection && link.getAttribute('href') === `#${currentSection.id}`) {
-                link.classList.add('active');
-            }
-        });
-    };
-
-    // Listen for scroll events
-    window.addEventListener('scroll', highlightTocLink);
-
-    // Initial highlight on page load
-    highlightTocLink();
+  // Start observing all the section elements
+  sections.forEach(section => {
+    observer.observe(section);
+  });
 });
