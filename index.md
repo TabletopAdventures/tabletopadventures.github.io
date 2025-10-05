@@ -19,7 +19,11 @@ title: "Campaign Timelines"
         {% endif %}
         <div class="campaign-card-content">
           <h2><a href="{{ site.baseurl }}/{{ collection.label }}/">{{ collection.title }}</a></h2>
-          <p>A complete timeline of events from the {{ collection.title }} campaign.</p>
+          {% if collection.description %}
+            <p>{{ collection.description }}</p>
+          {% else %}
+            <p>A complete timeline of events from the {{ collection.title }} campaign.</p>
+          {% endif %}
         </div>
       </div>
     {% endif %}
