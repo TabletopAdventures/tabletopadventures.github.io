@@ -34,7 +34,9 @@ Adding a new campaign is a three-step process. For this example, let's add a "Di
 #### 1. Configure the Collection
 First, you need to tell Jekyll about the new campaign.
 * Open the **`_config.yml`** file.
-* Under the `collections:` section, add a new entry for your campaign. The key (`discworld_scp`) will be used for the folder name.
+* Under the `collections:` section, add a new entry for your campaign.
+* Add an optional `description` to provide a custom summary on the homepage. If omitted, a default description will be used.
+
     ```yml
     collections:
       shadowrun_zero:
@@ -43,6 +45,7 @@ First, you need to tell Jekyll about the new campaign.
         output: true
         title: "Discworld SCP"
         icon: "/assets/images/discworld_scp/icon.png"
+        description: "A short, custom summary of the campaign." # Optional
     ```
 
 #### 2. Create the Campaign Page
