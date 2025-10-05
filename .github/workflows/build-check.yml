@@ -16,6 +16,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Validate Ruby Version
+        run: |
+          FILE_VERSION=$(tr -d '[:space:]' < .ruby-version)
+          REPO_VAR_VERSION="${{ vars.RUBY_VERSION }}"
+          
+          if [ "$FILE_VERSION" != "$REPO_VAR_VERSION" ]; then
+            echo "Error: .ruby-version ($FILE_VERSION) does not match repository variable RUBY_VERSION ($REPO_VAR_VERSION)."
+            exit 1
+          else
+            echo "Ruby version validated successfully."
+          fi
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
