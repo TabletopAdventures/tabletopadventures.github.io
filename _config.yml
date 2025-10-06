@@ -20,6 +20,7 @@ collections:
   k-macmillan-shadowrun_zero:
     output: true # Creates a page at /shadowrun_zero/
     title: "Shadowrun Zero"
+    gm: "Kyle"
     permalink: /:collection/:name/
     icon: "/assets/images/k-macmillan/shadowrun_zero/campaign_icon.png"
     description: "In the sprawling, sun-scorched metroplex of Dallas-Fort Worth, shadowrunners are puppeted by their corporate overlords, serving as deniable assets and expendable pawns in the silent wars fought in the city's shimmering data-havens and chrome-lined boardrooms."
@@ -27,12 +28,14 @@ collections:
   katiemacmillan-m_and_m_foundation:
     output: true # Creates a page at /m_and_m_foundation/
     title: "M&M Foundation"
+    gm: "Katie"
     permalink: /:collection/:name/
     icon: "/assets/images/katiemacmillan/m_and_m_foundation/campaign_icon.png"
 
   Tyler-Henson-horror_on_the_orient_express:
     output: true 
     title: "Horror on the Orient Express"
+    gm: "Tyler"
     permalink: /:collection/:name/
     icon: "/assets/images/Tyler-Henson/horror_on_the_orient_express/HotOE-Icon.webp"
     description: "In 1923, an heiress to a criminal empire and her entourage collect the pieces of a dark artifact from all across Europe to finally destroy it, battling the cultists to a flayed god, evading \"Sloppy Joe,\" and ignoring the ominous appearances of a woman who is definitely not a vampire."
