@@ -29,37 +29,36 @@ To run this website on your local machine, you'll need a Ruby development enviro
 
 ## How to Add a Campaign 🗺️
 
-Adding a new campaign is a three-step process. For this example, let's add a "Discworld SCP" campaign.
+Adding a new campaign is a three-step process. For this example, let's add a "Discworld SCP" campaign run by "user-1".
 
 #### 1. Configure the Collection
 First, you need to tell Jekyll about the new campaign.
 * Open the **`_config.yml`** file.
 * Under the `collections:` section, add a new entry for your campaign.
-* Add an optional `description` to provide a custom summary on the homepage. If omitted, a default description will be used.
+* Add the `gm` property to specify the Gamemaster's name. This is used to group campaigns on the homepage.
 
     ```yml
     collections:
-      shadowrun_zero:
-        # ...
-      discworld_scp: # <-- Add this block
+      user-1-discworld_scp: # <-- The key is <username>-<campaign_name>
         output: true
         title: "Discworld SCP"
-        icon: "/assets/images/discworld_scp/icon.png"
+        gm: "user-1" # <-- Add the Gamemaster's name
+        icon: "/assets/images/user-1-discworld_scp/icon.png"
         description: "A short, custom summary of the campaign." # Optional
     ```
 
 #### 2. Create the Campaign Page
 This file creates the main page for the campaign's timeline.
 * Go to the **`_pages/`** folder.
-* Create a new file named `campaign_discworld_scp.md`.
-* Add the following front matter, making sure the `collection` matches the key from `_config.yml` and the `permalink` defines its URL.
+* Create a new file named `campaign_user-1-discworld_scp.md`.
+* Add the following front matter, making sure the `collection` matches the key from `_config.yml`.
     ```yml
     ---
     layout: timeline
     title: "Discworld SCP Timeline"
-    collection: discworld_scp
+    collection: user-1-discworld_scp
     permalink: /discworld_scp/
-    background_image: "/assets/images/discworld_scp/background.jpg" # Optional
+    background_image: "/assets/images/user-1-discworld_scp/background.jpg" # Optional
     ---
     ```
 
@@ -67,14 +66,13 @@ This file creates the main page for the campaign's timeline.
 This is where all of your session notes will live.
 
 > [!WARNING]
-> Go into the **[`campaigns/`](campaigns)** folder and create a new folder named **`_discworld_scp/`**. **The underscore is required.**
+> Go into the **[`campaigns/`](campaigns)** folder and create a new folder named **`_user-1-discworld_scp/`**. **The underscore is required.**
 
 Your new campaign is now set up! The site will automatically add a card for it on the homepage.
 
 #### 4. Create the Image Folder
-Each campaign should store all their images for that campaign in the specific folder. This will help if we decide to enhannce the system in the future. Keeping it all contained now means we can use the same name, e.g. `background.jpg`, `icon.png`, etc.
-
-So for our example of a "Discworld SCP" campaign it would be `/assets/images/discworld_scp/`.
+Each campaign should store all its images in a dedicated folder.
+* For our example, the path would be `/assets/images/user-1-discworld_scp/`.
 
 > [!NOTE]
 > Missing images do not break the site, so put them in as able!
@@ -83,12 +81,12 @@ So for our example of a "Discworld SCP" campaign it would be `/assets/images/dis
 
 ## How to Add a Session (Timeline Event) 📝
 
-Each "session" is just a simple Markdown file that represents a single event in your timeline.
+Each "session" is a simple Markdown file representing an event in your timeline.
 
-1.  **Create a New File**: Go into the **[`campaigns/`](campaigns)** folder, then into the collection folder for your campaign (e.g., **`_discworld_scp/`**). Create a new Markdown file (`.md`) for your session.
+1.  **Create a New File**: Go into the **[`campaigns/`](campaigns)** folder, then into the collection folder for your campaign (e.g., **`_user-1-discworld_scp/`**). Create a new Markdown file (`.md`).
     * Example: `the-explosion.md`
 
-2.  **Add the Front Matter**: At the very top of the new file, add the required front matter. The `date` is crucial, as it determines the order of events in the timeline (most recent appears at the top). 
+2.  **Add the Front Matter**: At the very top of the new file, add the `title` and `date`. The `date` determines the order of events in the timeline.
 
     ```yml
     ---
@@ -101,16 +99,5 @@ Each "session" is just a simple Markdown file that represents a single event in 
 > Date must be in the form `YYYY-MM-DD`.
 
 3.  **Write Your Content**: Below the `---`, write your session notes using standard Markdown.
-
-    ```markdown
-    # Boom!
-    The Alchemists' Guild celebrated another successful "unscheduled atmospheric 
-    restructuring," which left a surprisingly neat crater where their building used to be. 
-    Commander Vimes of the City Watch surveyed the scene, noting that the only thing 
-    spreading faster than the soot was the paperwork required to investigate it. 
-    
-    Ultimately, the Guild's only real crime was managing to vaporize three street food 
-    vendors, tragically leaving no one to sell a sausage-in-a-bun to the onlookers.
-    ```
 
 Save the file, and it will automatically appear in the correct order on your campaign's timeline page.

@@ -92,7 +92,31 @@ main {
 }
 
 .campaign-card a:hover .campaign-icon {
-  transform: scale(1.05); /* Makes the icon slightly larger on hover */
+  transform: scale(1.15); /* Makes the icon slightly larger on hover */
+}
+
+/* Styling for GM groups on the homepage */
+.gm-group {
+  margin-bottom: 2.5em;
+}
+
+.gm-group h3 {
+  display: flex;
+  align-items: baseline; /* Aligns the text nicely */
+  gap: 0.6em; /* Creates space between the label and the name */
+  font-size: 1.8em;
+  font-weight: 400; /* A neutral weight for the name */
+  border-bottom: 1px solid var(--timeline-line-color);
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Style the "Gamemaster:" label */
+.gm-label {
+  font-size: 0.6em; /* Makes the label smaller */
+  font-weight: 700; /* Makes the label bolder */
+  text-transform: uppercase; /* Makes it all caps */
+  color: var(--text-color-muted);
 }
 
 /* -- New, Simplified Vertical Timeline Style -- */
