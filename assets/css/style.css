@@ -119,6 +119,19 @@ main {
   color: var(--text-color-muted);
 }
 
+/* Style for the GM search box on the homepage */
+#homeSearch {
+  width: 100%;
+  padding: 12px;
+  margin: 1em 0;
+  box-sizing: border-box; /* Important for width calculation */
+  font-size: 1rem;
+  border: 1px solid var(--timeline-line-color);
+  border-radius: 8px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
 /* -- New, Simplified Vertical Timeline Style -- */
 .timeline {
   position: relative;

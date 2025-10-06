@@ -5,7 +5,7 @@ title: "Campaign Timelines"
 
 <main>
   <h1>Campaigns</h1>
-
+  <input type="text" id="homeSearch" placeholder="Filter by Gamemaster or Campaign...">
   <p>Here are the documented adventures from our tabletop sessions. Choose a timeline to begin.</p>
 
   {% assign campaigns = site.collections | where_exp: "item", "item.title" %}
@@ -69,3 +69,4 @@ title: "Campaign Timelines"
   {% endif %}
 
 </main>
+<script src="{{ '/assets/js/search-home.js' | relative_url }}"></script>
