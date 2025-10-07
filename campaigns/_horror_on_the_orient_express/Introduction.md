@@ -66,10 +66,12 @@ Beadows, who got through the night attack with mearly burned hands was able to g
 
 The meeting ends with the professor all but whispering:
 **“Go. Go quickly. God help you.”**
+
 ### London Research
 They found Memet Makryot’s shop and confirmed he was the man at the banquet that was staring at Smith and them. They searched his shop in a semi-legal fashion and found his ledger which showed he sold the Doom Train. They also found some notes about Professor Smith and also Smith’s account of THE BLOODY RED FEZ (scenario that we skipped). 
 
 Then they shipped out to Calis to head to Paris. They got a brief glimpse of the luxury of the Simplon Orient Express here but actual service doesn’t start till Paris.
+
 ### The Bloody Red Fez (40 years ago) reveals:
 A cult named the Children of the Blood Red Fez and their leader Nisra were killed and their terrible Fez destroyed. 
 
@@ -93,6 +95,7 @@ After meeting back up, they ventured to Charenton Asylum. It is discovered that 
 The party met a disgruntled orderly that let them in a side door to do some snooping. Down in the basement they found the male body and a mark where the woman's body would have been. The man was thoroughly wrapped in chains and bonds. On the way out they heard **“Sloppy-Joe”** stalking them (or thats what they called it). They heard the meat slaps of feet and the jingle of teeth in his bag. He was pleased to see them. They didn’t allow him the chance.
 
 At some point Doctor Doc awoke in the night to **a porcelain skinned woman with orange eyes and black hair** whom they would later identify as the **Comtess Frenalik** with her hand over his chest in a caress. The woman spoke in french which he did not know well. He knew only a little French and the woman became frustrated. He was thrown against the wall and narrowly managed to not take a major injury.
+
 ##Poissy
 The group arrived at the small town of Poissy France to find Frenelik’s estate.
 
