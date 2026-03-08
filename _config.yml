@@ -17,9 +17,9 @@ collections_dir: campaigns
 
 # Collections: Define each campaign here
 collections:
-  shadowrun_zero:
-    output: true # Creates a page at /shadowrun_zero/
-    title: "Shadowrun Zero"
+  shadowrun_mecayotl:
+    output: true # Creates a page at /shadowrun_mecayotl/
+    title: "Shadowrun Mecayotl"
     gm: "Kyle"
     permalink: /:collection/:name/
     icon: "/assets/images/k-macmillan/shadowrun_zero_icon.png"
