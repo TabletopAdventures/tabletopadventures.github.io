@@ -3,7 +3,7 @@ title: "First run in a month"
 date: 2026-05-03
 ---
 
-# Session 0: Shadows Over the Sprawl
+# Shadows Over the Sprawl
 
 ## Saturday, January 11, 2086
 
