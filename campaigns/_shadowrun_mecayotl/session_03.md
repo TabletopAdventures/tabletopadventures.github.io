@@ -8,7 +8,7 @@ date: 2026-06-14
 
 **Toolbox** had a new look and it wasn't great. **Getafix** began med-kit treatment for **Toolbox** and **Bigoonia** as the runners burned rubber back to **Toolbox**'s shop. **NEEV** informed **Aleksy** that the job was done, and then a meetin was scheduled.
 
-The crew hit **FF** to collect. The paydata was validated by **Mr. Johnson's** mercs and a single, beautiful, gold credstick was pressed into **Neon Ghost's** chest. It was all there; a sweet *¥10,400* for their troubles.
+The crew hit **FF** to collect. The paydata was validated by **Mr. Johnson's** mercs and a single, beautiful, gold credstick was pressed into **Neon Ghost's** chest. It was all there; a sweet *¥10,400* per runner for their troubles.
 
 
 # R&R
@@ -26,7 +26,7 @@ The team started grinding on their gear and wetware to keep their edge sharp:
 # New Job - Ares’ Public Humiliation
 > Wednesday, February 6, 2086
 
-**Bull**, one of the squad's fixers sent out a blast:
+**Bull**, one of the squad's fixers, sent out a blast:
 
 > Meet at *Yttrium* in 6 hours, new work.
 
