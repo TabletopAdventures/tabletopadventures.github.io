@@ -21,13 +21,13 @@ The crew was angling for some simple infidelity, the kind of dirt that makes a c
 
 Unsatisfied, a small squad breached his place looking for dirt, and frag, did they hit the jackpot. The guy had a floor-to-ceiling bookshelf packed with photos of himself with kids of every age, from newborns to college grads. After digging into the data, the crew found he'd been greasing the palms of fertility clinics to impregnate every attractive woman that wanted a baby. 
 
-The paper trail was staggering. They uncovered hundreds of paid-off clinics and estimated the man had at least 16,000 kids. Julian was shelling out roughly ¥500,000 a month, a cool six million nuyen a year, in child support to the women who actually knew he was the father. Julian fancies himself some kind of modern Genghis Khan. Blegh.
+The paper trail was staggering. They uncovered hundreds of paid-off clinics and estimated the man had at least *16,000* kids. Julian was shelling out roughly *¥500,000* a month, a cool six million nuyen a year, in child support to the women who actually knew he was the father. Julian fancies himself some kind of modern Genghis Khan. Blegh.
 
 # Planting Poison
 > Saturday, February 9, 2086
 
-With the Port Parasite secured, there was only one piece of biz left to slot: stick the drekking plug onto the target's ride. The meat crew rolled up for a standard B&E at the warehouse, expecting a simple milk run. Instead, corp-sec pawns were already swarming the joint thick as devil rats before the runners even hit the plasteel.
+With the *Port Parasite* secured, there was only one piece of biz left to slot: stick the drekking plug onto the target's ride. The meat crew rolled up for a standard B&E at the warehouse, expecting a simple milk run. Instead, corp-sec pawns were already swarming the joint thick as devil rats before the runners even hit the plasteel.
 
-Toolbox didn't glitch; he just started lobbing stun 'nades, acting like the drekkin' sandman as he dumped them into deep sleep. Neon Ghost danced into the crossfire, braining the surviving rent-a-cops with heavy, skull-cracking swings of his staff. The team dusted the threat clean without a single chummer flatlining.
+**Toolbox** didn't glitch; he just started lobbing stun 'nades, acting like the drekkin' sandman as he dumped them into deep sleep. **Neon Ghost** danced into the crossfire, braining the surviving rent-a-cops with heavy, skull-cracking swings of his staff. The team dusted the threat clean without a single chummer flatlining.
 
 With the device slotted onto the primary mark, they masked their tracks in meatspace. They dressed the scene to make it look like a botched snatch-and-grab, jimmying open a completely different cargo coffin like a pack of low-rent gangers kiping random cred. To buy themselves a few extra beats, they stashed the sleeping wageslaves deep in the shadows, ensuring the local Star would take that much longer to tumble to the real chip truth of the run.
