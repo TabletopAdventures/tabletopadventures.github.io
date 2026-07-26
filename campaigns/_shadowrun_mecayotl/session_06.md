@@ -6,40 +6,6 @@ date: 2026-07-26
 # A Familiar Face
 > Saturday, February 9, 2086
 
-On **Neon Ghost** and **Toolbox's** departure from the warehouse they got a message from **Bull** and spotted a familiar face: **Wyrm**. There were some quick introductions and then the crew met up at *FF* to plan out the rest of the job.
-
-# Recon and Preparation
-> Sunday, February 10, 2086
-
-**Wyrm** did some recon of the manor hosting the event and didn't find any magic. **NEEV** reached out to a contact at Ares to see if she could score a ticket to the event. **Ana Lopez** agreed to give **NEEV** tickets, but needed some dirt on the new vehicle. 
-
-
-> Thursday, February 14, 2086
-
-**Toolbox**, **Getafix**, and **Sleeper** turned the *Bulldog* into a utility vehicle and tried to get a bead on the target vehicle. They came up short, unable to find it.
-
-# Flawless Execution
-> Friday, February 15, 2086
-
-## Scoping the Joint
-**NEEV** entered the event with **Neon Ghost** and **Getafix** as bodyguards. The event was lively with a good amount of people, music, and booze. The target vehicle was literally center stage. **Neon Ghost** went looking or any magic that may be interfering with the *Port Parasite* but found nothing. **NEEV** got right to work, trying to connect and quickly realized there were area jammers in place. After spending a little time she was able to bypass them.
-
-## Boom
-Julian walked out and greeted most people, then began his speech about the vehicle, listing off the specs and how awesome it was. They did a live fire event where they lit it up and there wasn't a scratch on the thing. Looked like it could do pretty well to protect someone from a group of newbie runners, wouldn't hold up against veterans, but that's not what they're selling.
-
-The crew waited for the opportune time, then activated the digital poison. Doors flew open, horns blaired, something exploded, and images started appearing on the windshield and other screens. At first no one could make out what it was, then they started to see. Paying child support for 158 kids, 16,000 children, hundreds of fertility clinics, "Julian = Genghis Khan?", "Ares CEO kids not his own?", internal earning reports in the red. It was an endless reel of attacks in addition to the vehicle being insecure. Mr. Johnson was actually there in person to watch it unfold and the crew caught him doubled-over laughing.
-
-The vehicle was a flop and Ares' VP of Global Marketing was a wannabe Genghis Khan.
-
-# Aftermath
-The crew met up at *FF* to have some drinks and watch the gossip pour in. A new face walked into the bar and beelined for the runners. He dropped a credstick into **Neon Ghost's** hand and said Mr. Johsnon was very pleased.
-
-*¥8,000* for the job and a fat *¥10,000* bonus for each runner. What a run.
-
-
-# A Familiar Face
-> Saturday, February 9, 2086
-
 As **Neon Ghost** and **Toolbox** ghosted from the warehouse, their commlinks pinged with a dataline from **Bull**, right before they locked optics on a familiar chummer: **Wyrm**. After some quick meet-and-greets, the runners bugged out to *FF*.
 
 # Recon and Preparation
