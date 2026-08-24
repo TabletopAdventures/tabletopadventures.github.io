@@ -16,10 +16,6 @@ With the building in full meltdown, **Wyrm** channeled the mana and cast *Invisi
 
 You never know what you're going to encounter in the Sixth World. *Maria* was carrying a concealed blade, which **Toolbox** quickly confiscated. Unwilling to go quietly into corporate servitude, she snapped the metal restraints, forcing **Toolbox** to give her a good jolt with his shock gloves. The harsh reality of the shadows set in, though it was briefly softened when **Toolbox** handed the terrified little girl some stickers, offering a gruff apology for knocking out her grandmother right in front of her. 
 
-As the runners finalized the loading process, things took a surreal turn. In the midst of the fleeing crowds, **Toolbox** caught a glimpse of something impossible, a dragon, moving amidst the metahuman panic.
-
-Over the comms, **Wyrm** confirmed the madness, having heard the unmistakable, resonant sound of the creature. But there was no time to stick around and investigate myths. They punched the gas.
-
 As the runners finalized the loading process, things took a surreal turn. In the midst of the fleeing crowds, **Toolbox** caught a glimpse of something impossible—a dragon, moving amidst the metahuman panic. Leaving the chaos behind, the crew punched the gas. 
 
 # Handoff
